@@ -1,5 +1,5 @@
-// Il tuo compito è creare un sito e-commerce per Smartphones. 
-// L'homepage che stai per creare sarà la vetrina dei prodotti disponibili, con qualche informazione per ciascun prodotto. 
+// Il tuo compito è creare un sito e-commerce per Smartphones.
+// L'homepage che stai per creare sarà la vetrina dei prodotti disponibili, con qualche informazione per ciascun prodotto.
 // Non sono richieste funzionalità di carrello/cassa.
 // - Completa gli esercizi dall'1 al 6 SOLAMENTE con HTML
 // - Completa gli altri esercizi con JS
@@ -20,5 +20,3 @@
 // ESERCIZIO 10: Scrivi una funzione per aggiungere una classe CSS ad ogni link Amazon della tabella
 // ESERCIZIO 11: Scrivi una funzione per aggiungere/togliere una classe CSS a tutte le immagini della tabella; questa classe deve modificare la visibilità/invisibilità dell'immagine
 // ESERCIZIO 12: Scrivi una funzione per cambiare il colore del prezzo di ogni prodotto in uno differente, ogni volta che viene invocata
-
-
