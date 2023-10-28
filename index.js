@@ -35,3 +35,35 @@ let linksCss = function () {
     links[i].classList.add("new-class");
   }
 };
+
+linksCss();
+
+let imgsClasses = function () {
+  let imgs = document.getElementsByTagName("img");
+
+  for (let i = 0; i < imgs.length; i++) {
+    if (!imgs[i].classList.length) {
+      imgs[i].classList.add("show");
+    } else {
+      imgs[i].classList.remove("show");
+    }
+  }
+};
+
+imgsClasses();
+
+let changePriceColor = function () {
+  let prices = document.getElementsByClassName("price");
+  let colors = [];
+
+  for (let a = 0; a < 10; a++) {
+    const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+    colors.push(randomColor);
+  }
+
+  for (let i = 0; i < prices.length; i++) {
+    prices[i].style.color = colors[i];
+  }
+};
+
+changePriceColor();
